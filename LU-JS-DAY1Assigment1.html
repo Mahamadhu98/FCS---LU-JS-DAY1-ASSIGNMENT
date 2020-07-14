@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <h1>LU-JAVASCRIPT DAY1 - ASSIGNMENT 1 -The various methods in console function </h1>
+    </head>
+    <body>
+        <p><strong>console.log() - It is the display function which displays output in the console screen, eg:console.log("message"); </strong></p>
+        <script>
+            console.log("hi, This is ASSIGNMENT 1 - console log function ");
+        </script>
+
+        <p><strong>console.error() - It is the display function which displays an error message to the console eg:console.error("message"); </strong></p>
+        <script>
+            console.error("hi, There is an error ");
+        </script>
+        <p><strong>console.warn() - It is the function which Outputs a warning message to the console eg:console.warn("message"); </strong></p>
+        <script>
+            console.warn("hi, There is an warning ");
+        </script>
+        <p><strong>console.table() - It is the display function which displays  tabular data as a table eg:console.table("message"); </strong></p>
+        <script>
+            var a ={ firstname : "John", lastname : "Doe" }
+            var b= { firstname : "John", lastname : "Doe" }
+            console.table({a,b});
+        </script>
+        <p><strong>console.time() - It is the display function which displays  time taken by an operation to execute eg:console.time(); </strong></p>
+        <p><strong>console.End() - It is the display function which displays finish time take by an operation to execute eg:console.timeEnd(); </strong></p>
+        <script>
+            console.time();
+            console.table("this is the tame taken for the curent operation");
+            console.timeEnd();
+        </script>
+    </body>
+</html>
